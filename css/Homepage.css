@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F2E1E1;
+}
+
+
+/* CONTAINER */
+.cont{
+    width: 60%;
+    margin: auto;
+}
+
+
+/* Header Desing */
+header{
+    width: 100%;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.555); 
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    
+}
+header:hover{
+    background-color: #fff;
+}
+header ul{
+    width: 98%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    list-style-type: none;
+}
+header ul li{
+    width: 25%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+}
+header ul li:hover {
+    background-color: #bfbfbfbf;
+    
+}
+header ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-family:Verdana, sans-serif;
+    background-color: transparent;
+}
+
+
+/* Banner Section Desing */
+.banner{
+    background-image: url("https://cdn.pixabay.com/photo/2022/03/13/09/11/couple-7065610_960_720.jpg");
+    width: 100%;
+    height: 100vh; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .text{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+.banner .text h1{
+    font-weight: 300;
+    letter-spacing: 4px;
+    background-color: transparent;
+    font-size: 62px;
+    color: white;
+    font-family: Verdana, sans-serif;
+}
+.banner .text h2{
+    margin-top: 35px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    background-color: transparent;
+    font-size: 25px;
+    color: white;
+    font-family: Verdana, sans-serif;
+}
+.banner .text p{
+    margin-top: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    background-color: transparent;
+    font-size: 30px;
+    color: white;
+    font-family: Verdana, sans-serif;
+}
+
+
+/*Description Section*/
+.description{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description h1{
+    margin-bottom: 50px;
+    font-weight: 500;
+    background-color: transparent;
+    font-size: 36px;
+    color: rgb(105, 105, 105);
+    font-family: Verdana, sans-serif;
+}
+.description img{
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+}
+.description span{
+    margin: 40px 3px;
+    font-style: italic;
+    color: rgb(34, 34, 34);
+    line-height: 28px;
+    font-size: 17px;
+}
+.description button{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 55px;
+    border-radius: 4px;
+    margin-bottom: 100px;
+    font-size: 18px;
+    border: 1px solid black;
+    transition: all ease-in-out 0.2s;
+}
+.description button:hover{
+    background-color: rgb(193, 192, 192);
+    color: black;
+    border: 1px solid rgb(193, 192, 192);
+    cursor: pointer;
+}
+
+
+/* Invidet Section Desing */
+.invidet{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpYOESkYkrNeqZ34pAZolv6JDqMAXVYm13dA&s");
+    width: 100%;
+    height: 100vh; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.invidet .inv-text{
+    /* background-color: rgba(0, 0, 0, 0.207); */
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 190px;
+    padding: 10px;
+}
+.invidet .inv-text h1{
+    font-weight: 200;
+    /* letter-spacing: 2px; */
+    background-color: transparent;
+    font-size: 64px;
+    color: white;
+    font-family: Verdana, sans-serif;
+}
+.invidet .inv-text p{
+    font-weight: 200;
+    background-color: transparent;
+    font-size: 28px;
+    color: white;
+    font-family: Verdana, sans-serif;
+}
+
+
+/* Wedding Section Desing */
+.wedding{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    margin: 100px 0;
+}
+.wedding h1{
+    font-weight: 500;
+    background-color: transparent;
+    font-size: 36px;
+    color: rgb(105, 105, 105);
+    font-family: Verdana, sans-serif;
+    text-transform: capitalize;
+}
+.wedding img{
+    border-radius: 10px;
+}
+.wedding .textboxs{
+    width: 60%;
+    display: flex;
+}
+.wedding .textboxs .textbox{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.wedding .textboxs .textbox h3{
+    font-weight: 200;
+    background-color: transparent;
+    font-size: 32px;
+    color: rgb(41, 41, 41);
+    font-family: Verdana, sans-serif
+}
+.wedding .textboxs .textbox p{
+    font-weight: 200;
+    background-color: transparent;
+    font-size: 14px;
+    color: rgb(80, 80, 80);
+    font-family: Verdana, sans-serif
+}
+
+
+/* Respond Section Desing */
+.respond{
+    width: 100%;
+    padding:80px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3cece;
+}
+.respond h1{
+    font-weight: 400;
+    background-color: transparent;
+    font-size: 36px;
+    color: black;
+    font-family: Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+.respond p{
+    margin-top: 35px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    background-color: transparent;
+    font-size: 18px;
+    color: black;
+    font-family: Verdana, sans-serif;
+}
+.respond button{
+    margin-top: 35px;
+    background-color: #F88078;
+    color: white;
+    width: 200px;
+    height: 65px;
+    border-radius: 4px;
+    font-size: 24px;
+    border: 1px solid #F88078;
+    transition: all ease-in-out 0.2s;
+}
+.respond button:hover{
+    background-color: rgb(193, 192, 192);
+    color: black;
+    border: 1px solid rgb(193, 192, 192);
+    cursor: pointer;
+}
+
+
+/* Footer Desing */
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 30px;
+}
+footer p{
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 100;
+}
+footer a{
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 100;
+}
+footer a:hover{
+    color: green;
+}
+
+
+
+
